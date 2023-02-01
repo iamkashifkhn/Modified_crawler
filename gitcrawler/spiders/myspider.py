@@ -6,7 +6,9 @@ from gitcrawler.items import GitcrawlerItem
 class MyspiderSpider(Spider):
     name = 'myspider'
     allowed_domains = ['github.com']
-    start_urls = ['https://github.com/muddasar-de/muddasar-folio']
+    start_urls = ['https://github.com/muddasar-de/muddasar-folio','https://github.com/iamkashifkhn/Modified_crawler'
+    ,'https://github.com/iamkashifkhn/TodoList-App','https://github.com/iamkashifkhn/KeepNotes'
+    ]
 
 
     # rules = (
